@@ -199,17 +199,17 @@ public class CallButtonFragment
         }
 
         mAudioButton.setEnabled(isEnabled);
-        mChangeToVoiceButton.setEnabled(isEnabled);
+        // mChangeToVoiceButton.setEnabled(isEnabled);
         mMuteButton.setEnabled(isEnabled);
         mShowDialpadButton.setEnabled(isEnabled);
         mHoldButton.setEnabled(isEnabled);
         mSwapButton.setEnabled(isEnabled);
-        mChangeToVideoButton.setEnabled(isEnabled);
-        mSwitchCameraButton.setEnabled(isEnabled);
+        // mChangeToVideoButton.setEnabled(isEnabled);
+        // mSwitchCameraButton.setEnabled(isEnabled);
         mAddCallButton.setEnabled(isEnabled);
         mMergeButton.setEnabled(isEnabled);
-        mPauseVideoButton.setEnabled(isEnabled);
-        mOverflowButton.setEnabled(isEnabled);
+        // mPauseVideoButton.setEnabled(isEnabled);
+        // mOverflowButton.setEnabled(isEnabled);
     }
 
     @Override
@@ -228,7 +228,7 @@ public class CallButtonFragment
 
     @Override
     public void showChangeToVoiceButton(boolean show) {
-        mChangeToVoiceButton.setVisibility(show ? View.VISIBLE : View.GONE);
+        mChangeToVoiceButton.setVisibility(show ? View.GONE : View.GONE);
     }
 
     @Override
@@ -268,12 +268,12 @@ public class CallButtonFragment
 
     @Override
     public void showChangeToVideoButton(boolean show) {
-        mChangeToVideoButton.setVisibility(show ? View.VISIBLE : View.GONE);
+        mChangeToVideoButton.setVisibility(show ? View.GONE : View.GONE);
     }
 
     @Override
     public void showSwitchCameraButton(boolean show) {
-        mSwitchCameraButton.setVisibility(show ? View.VISIBLE : View.GONE);
+        mSwitchCameraButton.setVisibility(show ? View.GONE : View.GONE);
     }
 
     @Override
@@ -294,7 +294,7 @@ public class CallButtonFragment
 
     @Override
     public void showPauseVideoButton(boolean show) {
-        mPauseVideoButton.setVisibility(show ? View.VISIBLE : View.GONE);
+        mPauseVideoButton.setVisibility(show ? View.GONE : View.GONE);
     }
 
     @Override
@@ -304,7 +304,7 @@ public class CallButtonFragment
 
     @Override
     public void showOverflowButton(boolean show) {
-        mOverflowButton.setVisibility(show ? View.VISIBLE : View.GONE);
+        mOverflowButton.setVisibility(show ? View.GONE : View.GONE);
     }
 
     @Override
